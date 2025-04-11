@@ -34,7 +34,7 @@
 - Copy the HTTPS clone URL provided for your repository.
 
 **7. Connect Your Local Repository to GitHub (Push Your Code):**
-
+-`git pull --rebase origin main` This command fetches the latest updates from the remote main branch and rebases your local commits on top of them.
 - In your terminal, run `git remote add origin <repository URL>` to add the copied URL as your remote repository named "origin".
 - Run `git push -u origin main` to push your local commits to the `main` branch (or your preferred branch) on the remote GitHub repository.
 
